@@ -5,7 +5,7 @@ const Navbar = () => {
     return(
         <AppBar position='static'>
             <Toolbar>
-                <Typography variant='h6'>DeFipedia</Typography>
+                <img src={'/assets/favicon.svg'} />
             </Toolbar>
         </AppBar>
     )
