@@ -1,11 +1,11 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
+import Layout from '../components/layout'
 
 const IndexPage = () => {
   return(
-    <React.Fragment>
-      <Navbar />
-    </React.Fragment>
+    <Layout>
+      <img  src={'/assets/brand-logo.svg'}/>
+    </Layout>
   )
 }
 
