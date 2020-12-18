@@ -1,11 +1,13 @@
 import React from'react'
 import Layout from '../components/layout';
+import TeamCard from '../components/TeamCard';
 
 const AboutPage = () => {
     return(
         <Layout>
             <div className='about-page'>
-                <p>This is about page</p>
+                <h1>Our Team</h1>
+                <TeamCard name='Joseph Turner' picture='' role='Cheif Execution Officer'/>
             </div>
         </Layout>
     )

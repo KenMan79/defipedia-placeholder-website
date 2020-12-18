@@ -6,7 +6,9 @@ const Navbar = () => {
     return(
         <AppBar position='static'>
             <Toolbar>
-                <img src={'/assets/favicon.svg'} />
+                <Link to='/'>
+                    <img src={'/assets/favicon.svg'} />
+                </Link>
                 <ul className='nav-options'>
                     <li className='nav-option'>
                         <Link to='/about'>About</Link>

@@ -128,4 +128,13 @@ form > hr {
   color: #FF6400;
 }
 
+.about-page {
+  text-align: center;
+  margin-top: 0px;
+}
+.about-page h1 {
+  font-size: 28px;
+  text-decoration: underline;
+}
+
 /*# sourceMappingURL=style.css.map */
