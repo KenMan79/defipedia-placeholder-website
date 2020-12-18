@@ -30,6 +30,12 @@ body {
   text-decoration: none;
 }
 
+.team-member-profile {
+  height: 220px;
+  width: 260px;
+  text-align: center;
+}
+
 .index-page {
   text-align: center;
 }
