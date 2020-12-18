@@ -1,13 +1,18 @@
 import React from'react'
 import Layout from '../components/layout';
 import TeamCard from '../components/TeamCard';
+import team from '../data/team.json';
+
 
 const AboutPage = () => {
     return(
         <Layout>
             <div className='about-page'>
                 <h1>Our Team</h1>
-                <TeamCard name='Joseph Turner' picture='' role='Cheif Execution Officer'/>
+                {team.map(member => (
+                    // console.log(member)
+                    <TeamCard name={member.name} picture='' role={member.role}/>
+                ))}
             </div>
         </Layout>
     )

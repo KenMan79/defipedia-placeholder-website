@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Joseph Turner",
+        "image": "joe.jpg",
+        "role": "Cheif Executive Officer"
+    },
+    {
+        "name": "Raul Lourenco",
+        "image": "raul.jpg",
+        "role": "Cheif Design Officer"
+    },
+    {
+        "name": "Sam Ratnakar",
+        "image": "sam.jpg",
+        "role": "Cheif Business Officer"
+    },
+    {
+        "name": "Mohammad Khawajah",
+        "image": "aree.jpg",
+        "role": "Cheif Research Officer"
+    },
+    {
+        "name": "Pradhumna Pancholi",
+        "image": "prad.jpeg",
+        "role": "Cheif Technology Officer"
+    }
+]
